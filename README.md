@@ -25,6 +25,6 @@ Make sure these dependencies are installed and started **before** this resource.
 
 1. Clone or download this repository into your FiveM `resources` folder.  
 2. Ensure `ox_lib`, `ox_target`, and `ox_inventory` are installed and started before this resource.  
-3. Add the following to your `server.cfg`: start kxi-redzone
+3. Add the following to your `server.cfg`: start kxi_redzone
 4. Configure your red zones in the `Config.Redzones` table inside the script.
 

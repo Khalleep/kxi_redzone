@@ -28,27 +28,3 @@ Make sure these dependencies are installed and started **before** this resource.
 3. Add the following to your `server.cfg`: start kxi-redzone
 4. Configure your red zones in the `Config.Redzones` table inside the script.
 
-## Configuration
-
-Edit the `Config.Redzones` table in the script to define your zones. Each zone requires:
-
-- `coords`: vector3 coordinates for the center of the zone  
-- `radius`: radius of the zone
-- `name`: a descriptive name for the zone  
-
-Example:
-
-```lua
-Config.Redzones = {
- {
-     coords = vector3(-1056.22, -241.06, 44.02),
-     radius = 100.0,
-     name = "Office"
- },
- {
-     coords = vector3(1000.0, 2000.0, 40.0),
-     radius = 80.0,
-     name = "Central"
- }
-}
-
